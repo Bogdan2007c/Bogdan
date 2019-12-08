@@ -1,4 +1,43 @@
-div{
+.wrapper img {
+    height: 300px;
+    width: 300px;
+    margin-left: 40px;
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+.wrapper .ol {
     max-width: 400px;
-    margin-left: 350px;
+    max-height: 500px;
+    background-color: blue;
+    margin-right: auto;
+}
+
+.wrapper .bo {
+    margin-left: 650px;
+    background-color: blue;
+    max-height: 500px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.wrapper .block {
+    margin-left: 1250px;
+    background-color: blue;
+    max-height: 500px;
+    max-width: 400px;
+    margin-left: auto;
+}
+
+.wrapper h2 {
+    margin-left: 125px;
+    color: cornsilk;
+    padding-top: 20px;
+}
+
+.wrapper p {
+    color: cornsilk;
+    padding-left: 20px;
 }
